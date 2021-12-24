@@ -11,7 +11,9 @@ def show_commands():
 
 
 def add_student(students):
-    # Запросить данные о студенте.
+    """
+    Запросить данные о студенте
+    """
     name = input("ФИО? ")
     group = input("Номер группы? ")
     grade = str(input('Оценки: '))
